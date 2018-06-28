@@ -1,14 +1,22 @@
 <template>
-<div class="find">
-  <div>{{ msg }}</div>
-  <div class="v-footer">
+<div class="home">
+    <div class="header">
+      <h1>
+        {{ msg }}
+      </h1>
+    </div>
+    <div class="main">
+      
+    </div>
+    <div class="footer">
       <Footer />
     </div>
-    </div>
+  </div>
 </template>
 
 <script>
 import Footer from "../Footer/Footer";
+import '../../assets/css/public.css';
 export default {
   name: "Find",
   components: {

@@ -33,6 +33,7 @@ export default {
   }
   .footer a{
     text-decoration: none;
-    font-size: 14px;
+    font-size:.3rem;
+    line-height: 1rem;
   }
 </style>

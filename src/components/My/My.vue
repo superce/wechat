@@ -1,7 +1,15 @@
 <template>
-  <div class="My">
-    <div>{{ msg }}</div>
-    <div class="v-footer">
+<div class="home">
+    <div class="header">
+      <h1>
+        {{ msg }}
+      </h1>
+    </div>
+    <div class="main">
+     
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus corporis blanditiis eveniet consectetur quasi magni laudantium atque porro incidunt quam sed totam similique laboriosam eum, architecto molestias pariatur voluptate facere.</p>
+    </div>
+    <div class="footer">
       <Footer />
     </div>
   </div>
@@ -9,6 +17,7 @@
 
 <script>
 import Footer from "../Footer/Footer";
+import '../../assets/css/public.css';
 export default {
   name: "My",
   components: {

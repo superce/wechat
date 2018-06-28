@@ -1,9 +1,9 @@
 <template>
   <div class="home">
-    <div>
-      {{ msg }}
+    <div class="main">
+      <p></p>
     </div>
-    <div class="v-footer">
+    <div class="footer">
       <Footer />
     </div>
   </div>
@@ -11,6 +11,7 @@
 
 <script>
 import Footer from "../Footer/Footer";
+import '../../assets/css/public.css'
 export default {
   name: "Home",
   components: {
@@ -26,4 +27,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
 </style>

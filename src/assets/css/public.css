@@ -1,0 +1,37 @@
+.home {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.home .header {
+  flex-shrink: 0;
+  height: .8rem;
+  background: #000;
+}
+
+.home .footer {
+  height: 1rem;
+  flex-shrink: 0;
+}
+
+.home .header h1 {
+  font-size: .5rem;
+  text-align: center;
+  line-height: 1rem;
+}
+
+.home .main {
+  width: 95%;
+  margin: 0 auto;
+  flex-grow: 1;
+  overflow-y: scroll;
+}
+
+.home .main p {
+  font-size: .3rem;
+}
+
+.footer {
+  border-top: 1px solid #ccc;
+}
